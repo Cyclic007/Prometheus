@@ -4,12 +4,14 @@
   "version": "${version}",
   "name": "Promethus",
   "description": "",
-  "authors": [],
+  "authors": [
+    "Cyclic007"
+  ],
   "contact": {
     "repo": "https://github.com/sebas/Promethus"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/promethus/icon.png",
+  "icon": "assets/wheelofdoom/selection1.png",
   "environment": "*",
   "entrypoints": {
     "client": [
