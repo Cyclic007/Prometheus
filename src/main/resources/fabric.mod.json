@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "promethus",
+  "version": "${version}",
+  "name": "Promethus",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/sebas/Promethus"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/promethus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.cyclic.promethus.client.PromethusClient"
+    ],
+    "main": [
+      "org.cyclic.promethus.Promethus"
+    ]
+  },
+  "mixins": [
+    "promethus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
