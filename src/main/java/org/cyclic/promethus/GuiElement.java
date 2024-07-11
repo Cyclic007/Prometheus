@@ -11,7 +11,7 @@ public class GuiElement {
      *
      * @param element This is the sprite
      * @param position this is the position of the sprite
-     * @param scale this is the scale about the center
+     * @param scale this is the scale about the center of the element
      */
     public GuiElement(Identifier element, long[] position, int scale) {
         Element = element;
